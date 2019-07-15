@@ -1,0 +1,286 @@
+/* CSS Document */
+
+.clear{
+	height:0;
+	padding:0;
+	margin:0;
+	clear:both;
+}
+
+.tc-heading #version{
+	font-size:14px !important;
+}
+
+.tc-heading a{
+	font-size:14px !important;
+	text-decoration:none !important;
+	border-bottom:none !important;
+}
+
+#wpwrap {
+    min-width: 990px;
+}
+
+#tc_framework_wrap{
+	margin:15px 0px;
+    position: relative;
+    width: 788px;
+}
+
+#tc_framework_wrap #content_wrap{
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    position: relative;
+    width: 787px;
+}
+
+#tc_framework_wrap #content_wrap .info{
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-bottom: 1px solid #E3E3E3;
+    border-top: 1px solid #FFFFFF;
+    height: 35px;
+}
+
+#tc_framework_wrap #content_wrap .info span{
+	font-size:10px;
+	margin:10px 0 0 10px;
+	display:block;
+	font-weight:bold;
+}
+
+#tc_framework_wrap #content_wrap .info.bottom{
+    background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: medium none !important;
+    border-top: 1px solid #E3E3E3 !important;
+}
+
+#tc_framework_wrap #content_wrap #sub_header{
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-bottom: 1px solid #E3E3E3;
+    border-top: 1px solid #d5d5d5;
+    padding:10px 0px;
+    border-right:1px solid #d5d5d5;
+	border-left:1px solid #d5d5d5;
+}
+
+#tc_framework_wrap #content_wrap .info input.button-framework{
+    float: right;
+    font-size: 11px;
+    height: 24px;
+    margin: 5px 10px 0 0;
+    padding: 4px 10px;
+}
+
+#tc_framework_wrap input.button-framework{
+    background: url("../images/btn.png") repeat-x scroll 0 0 #F3F3F3;
+    border: 1px solid #BBBBBB;
+    color: #444444;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#tc_framework_wrap input.button-framework:hover{
+	border-color:#666666;
+	color:#000000;
+}
+
+#tc_framework_wrap #content{
+    border-bottom: 1px solid #E3E3E3;
+    padding:0;
+	margin:0;
+    position: relative;
+    width: 785px;
+    border-right:1px solid #d5d5d5;
+	border-left:1px solid #d5d5d5;
+}
+
+#tc_framework_wrap #content #options_content{
+	margin:0;
+	padding:0;
+	background:url("../images/tabs_bg.png") repeat-y scroll 0 0 transparent;
+}
+
+#tc_framework_wrap #content #options_content ul{
+	font-size:12px;
+	display:block;
+    float: left;
+    list-style: none outside none;
+    position: relative;
+    width: 148px;
+    word-wrap: break-word;
+}
+
+#tc_framework_wrap #content #options_content ul li{
+    display: block;
+    float: left;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+
+#tc_framework_wrap #content #options_content ul li a{
+    background-image: url("../images/white_px.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #E3E3E3;
+    color: #21759B;
+    display: block;
+    float: left;
+    font-size: 11px;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 127px;
+}
+
+#tc_framework_wrap #content #options_content ul li.active a{
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #D54E45;
+    width: 128px;
+	cursor:pointer;
+}
+
+#tc_framework_wrap #content #options_content ul li.active span{
+    background: url("../images/icon_arrow.png") no-repeat scroll 0 0 transparent;
+    height: 9px;
+    left: -1px;
+    position: absolute;
+    top: 12px;
+    width: 8px;
+}
+
+#tc_framework_wrap #content #options_content ul li a:hover{
+	color:#666666;
+	background:#EAF2FA;
+}
+
+#tc_framework_wrap #content #options_content ul li.active a:hover{
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #D54E45;
+    width: 128px;
+	cursor:pointer;
+}
+
+#tc_framework_wrap .options_page{
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+	float:right;
+	min-height:400px;
+	width:595px;
+}
+
+#tc_framework_wrap .options_page.hide{
+	display:none;
+}
+
+#tc_framework_wrap .option{
+	margin-bottom:25px;
+}
+
+#tc_framework_wrap .option h3{
+    border-bottom: 1px solid #EEEEEE;
+    clear: both;
+    font-size: 14px;
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+}
+
+#tc_framework_wrap .option .section{
+    font-size: 11px;
+    overflow: hidden;
+}
+
+#tc_framework_wrap .option .section .element{
+    float: left;
+    margin: 0 15px 0 0;
+    width: 335px;
+}
+
+#tc_framework_wrap .option .section .description{
+    color: #555555;
+    float: left;
+    font-size: 11px;
+    padding: 2px 10px 0 0;
+    width: 230px;
+}
+
+#tc_framework_wrap #content select{
+    cursor: pointer;
+	height:2.5em !important;
+}
+
+#tc_framework_wrap .option .section .element .textfield{
+    background: none repeat scroll 0 0 #FAFAFA;
+    border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+    display: block;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+    font-size: 12px;
+    margin-bottom: 9px !important;
+    padding: 5px;
+    resize: none;
+    width: 333px;
+}
+
+#tc_framework_wrap .tc-checkbox-wrap{
+	width:95px;
+	float:left;
+}
+
+#tc_framework_wrap .tc-checkbox-wrap{
+	width:150px;
+	float:left;
+}
+
+#tc_framework_wrap .tc-checkbox{
+	margin:0 7px 4px 0;
+}
+
+#tc_framework_wrap .tc-radio-group{
+	padding:3px;
+}
+
+#tc_framework_wrap .tc-radio-group input{
+	margin-top:0px !important;
+	vertical-align:baseline !important;
+	margin-right:5px;
+}
+
+#tc_framework_wrap .tc-radio-group label{
+}
+
+#message-bg{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for IE 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000; 
+	z-index:95;
+}
+
+#success-save{
+    background: url("../images/saved.png") no-repeat top left;
+	width:257px;
+	height:65px;
+	z-index:99;
+	display:none;
+}
